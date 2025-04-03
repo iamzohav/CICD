@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from my CI/CD Pipeline!"
+    return "Hello from my CI/CD without jenkins Pipeline!"
 
 if __name__ == '__main__':
     print("Running on 0.0.0.0:5000", file=sys.stderr)
